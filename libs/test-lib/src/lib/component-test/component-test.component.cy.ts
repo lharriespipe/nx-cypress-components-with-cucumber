@@ -13,5 +13,6 @@ describe(ComponentTestComponent.name, () => {
 
   it('renders', () => {
     cy.mount(ComponentTestComponent);
+    cy.get('p').contains('component-test works!')
   });
 });
