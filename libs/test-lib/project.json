@@ -49,7 +49,7 @@
         "cypressConfig": "libs/test-lib/cypress.config.ts",
         "testingType": "component",
         "skipServe": true,
-        "devServerTarget": "test-component:build"
+        "devServerTarget": "cypress-components-cucumber:build"
       }
     }
   }
